@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+  }
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+}
+#menus img {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    
+}
+
+nav{
+    font-size: 1rem;
+    background-color: black;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.menu li a {
+    display: block;
+    padding: 15px 5px;
+}
+.item {
+    padding: 10px;
+}
+
+/* Middel; banner*/
+
+#mission
+{
+background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    border-top:solid seashell;
+}
+.missiontext{
+    color: seashell ;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+/*Tea of the month*/
+#monthlyTea
+{
+    width: 90%;
+    align-self: center;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-left: 6%;
+}
+.images img {
+    width: 300px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+.images
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.images h4{
+    margin-top: 0;
+}
+/*Location */ 
+#location h2{
+    text-align: center;
+}
+#location {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: auto;
+    margin: auto;
+    padding-top: 10px;
+}
+#locationBoxes {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    vertical-align: middle;
+    box-sizing: border-box;
+}   
+
+.boxes {
+    width: 300px;
+   
+    margin: 15px 40px;
+    opacity: 1;
+    background-color: black;
+    justify-content: space-around;
+    
+  
+}
+#footer {
+    height: 200px;
+    text-align: center;
+}
+
+#copyright {
+    margin-left: 20px;
+    text-align: left;
+}
